@@ -1,0 +1,49 @@
+ heading {
+   display: block;
+   font-size: 2em;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 2em;
+ }
+ h1 {
+   margin: 0;
+   letter-spacing: 5px;
+   }
+ 
+ .cell { 
+   float: left;
+   width: 1em;
+   text-align: center;
+   /*    border: 1px solid black; */
+   border-right: 0.1em solid black;
+ }
+
+ .cell:last-child {
+   border-right: none;
+   }
+
+ 
+ .row {
+   width: 3.3em;
+   margin: auto;
+   border-bottom: 0.1em solid black;
+ }
+
+ .row:last-child {
+   border-bottom: none;
+ }
+ 
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ main {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0;
+   font-size: 7em;
+   /*    border: 5px solid black; */
+   width: 4em;
+   font-family: sans-serif; 
+   }
